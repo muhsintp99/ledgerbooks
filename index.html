@@ -34,9 +34,10 @@
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
             <img src="./assets/images/logos/logoblack.png" alt="LedgerBooks." height="40">
-            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="Toggle navigation">
                 <i class="fas fa-bars"></i>
             </button>
+            
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
@@ -56,13 +57,24 @@
     <!-- Hero Section -->
     <section id="hero" class="hero">
         <div class="container">
-            <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
-                <p class="badge">Your Cloud EPR Partner</p>
-                <h1>Streamline your business with seamless <span>Cloud ERP</span></h1>
-                <p>Streamline your business operations with our comprehensive cloud ERP system</p>
-                <div class="hero-buttons">
-                    <button class="btn btn-secondary">Start Free Trial <i class="fa-solid fa-angle-right ms-1"></i></button>
-                    <button class="btn btn-secondary">Join Now</button>
+            <div class="row align-items-center">
+                <!-- Left Content -->
+                <div class="col-lg-6">
+                    <div class="hero-content">
+                        <p class="badge">Your Cloud EPR Partner</p>
+                        <h1>Streamline your business with seamless <span>Cloud ERP</span></h1>
+                        <p>Streamline your business operations with our comprehensive cloud ERP system</p>
+                        <div class="hero-buttons">
+                            <button class="btn btn-secondary">View Demo <i class="fa-solid fa-angle-right ms-1"></i></button>
+                            <button class="btn btn-secondary">Join Now</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Right Image -->
+                <div class="col-lg-6">
+                    <div class="hero-image">
+                        <img src="./assets/images/illustration/hero.png" alt="Cloud ERP Illustration" height="550px">
+                    </div>
                 </div>
             </div>
         </div>
@@ -95,7 +107,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6" data-aos="fade-left">
-                    <div class="illustration-container">
+                    <div class="illustration-container text-center">
                         <img src="./assets/images/illustration/aboutus.png" alt="Person handling computer" class="img-fluid" />
                         <div class="animated-circles">
                             <div class="circle circle-1"></div>
@@ -423,22 +435,22 @@
                         innovative and customizable software to businesses across various industries.</p>
                     <div class="social-links">
                         <div class="social-icon">
-                            <a href="#">
+                            <a href="#" aria-label="Visit our LinkedIn page">
                                 <i class="fab fa-linkedin"></i>
                             </a>
                         </div>
                         <div class="social-icon">
-                            <a href="#">
+                            <a href="#" aria-label="Visit our Instagram page">
                                 <i class="fab fa-instagram"></i>
                             </a>
                         </div>
                         <div class="social-icon">
-                            <a href="#">
+                            <a href="#" aria-label="Visit our Facebook page">
                                 <i class="fab fa-facebook"></i>
                             </a>
                         </div>
                         <div class="social-icon">
-                            <a href="#">
+                            <a href="#" aria-label="Visit our Youtube page">
                                 <i class="fab fa-youtube"></i>
                             </a>
                         </div>
