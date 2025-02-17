@@ -182,7 +182,7 @@
                 <div class="col-12 col-md-6 col-lg-6" data-aos="fade-up" data-aos-delay="100">
                     <div class="service-card" id="CloudERPSystem">
                         <div class="card-img-wrapper">
-                            <img src="./assets/images/illustration/cloud.png" class="card-img-top"
+                            <img src="./assets/images/illustration/cloud1.png" class="card-img-top"
                                 alt="Cloud ERP System">
                             <div class="card-icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -203,7 +203,7 @@
                 <div class="col-12 col-md-6 col-lg-6" data-aos="fade-up" data-aos-delay="200">
                     <div class="service-card" id="Customization">
                         <div class="card-img-wrapper">
-                            <img src="./assets/images/illustration/Customization.png" class="card-img-top"
+                            <img src="./assets/images/illustration/Customation.png" class="card-img-top"
                                 alt="Customization Services">
                             <div class="card-icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -247,7 +247,7 @@
                 <div class="col-12 col-md-6 col-lg-6" data-aos="fade-up" data-aos-delay="400">
                     <div class="service-card" id="IndustrySolutions">
                         <div class="card-img-wrapper service-card-child">
-                            <img src="./assets/images/illustration/ERP.png" class="card-img-top"
+                            <img src="./assets/images/illustration/industrial.png" class="card-img-top"
                                 alt="Industry Solutions">
                             <div class="card-icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -421,8 +421,8 @@
                         <li class="header">Organization Setup</li>
                         <li class="available">1 Organization</li>
                         <li class="available">3 Users</li>
-                        <li class="available">2 Branches</li>
-                        <li class="available">1 Retail POS</li>
+                        <li class="unavailable">Branches</li>
+                        <li class="unavailable">Retail POS</li>
 
                         <li class="header">Sales</li>
                         <li class="available">Customer Management</li>
@@ -433,7 +433,7 @@
                         <li class="available">Delivery Note</li>
                         <li class="available">Customer Portal</li>
                         <li class="available">Incoming Payment</li>
-                        <li class="available">Approval Stage</li>
+                        <li class="unavailable">Approval Stage</li>
 
                         <li class="header">Purchase</li>
                         <li class="available">Vendor Management</li>
@@ -442,24 +442,28 @@
                         <li class="available">Outgoing Payment</li>
                         <li class="available">Debit Note</li>
                         <li class="available">Vendor Portal</li>
-                        <li class="available">Approval Stage</li>
+                        <li class="unavailable">Approval Stage</li>
+
+                        <li class="header">Project</li>
+                        <li class="available">Time Tracking</li>
+                        <li class="available">Time sheet</li>
 
                         <li class="header">Inventory</li>
                         <li class="available">Price List</li>
-                        <li class="available">Manage Items</li>
-                        <li class="available">Stock Tracking</li>
-                        <li class="available">Set Reorder Points</li>
-                        <li class="available">Barcode</li>
-                        <li class="available">Warehouse</li>
-                        <li class="available">Serial Number Tracking</li>
-                        <li class="available">Batch Number Tracking</li>
-                        <li class="available">Stock Counting</li>
+                        <li class="unavailable">Manage Items</li>
+                        <li class="unavailable">Stock Tracking</li>
+                        <li class="unavailable">Set Reorder Points</li>
+                        <li class="unavailable">Barcode</li>
+                        <li class="unavailable">Warehouse</li>
+                        <li class="unavailable">Serial Number Tracking</li>
+                        <li class="unavailable">Batch Number Tracking</li>
+                        <li class="unavailable">Stock Counting</li>
 
                         <li class="header">Banking & Accounting</li>
                         <li class="available">Bank Reconciliation</li>
                         <li class="available">Manual Journal</li>
                         <li class="available">Chart Of Accounts</li>
-                        <li class="available">Transaction Locking</li>
+                        <li class="unavailable">Transaction Locking</li>
 
                         <li class="header">Reporting</li>
                         <li class="available">Overview</li>
@@ -468,28 +472,37 @@
                         <li class="available">Cash Flow Statement</li>
                         <li class="available">Balance Sheet</li>
                         <li class="available">Business Performance Ratios</li>
-                        <li class="available">Movement of Equity</li>
+                        <li class="unavailable">Movement of Equity</li>
                         <li class="available">Activity Logs & Audit Trail</li>
+                        <li class="available">Sales Related Report</li>
+                        <li class="available">Purchase Related Reports</li>
 
                         <li class="header">Support</li>
-                        <li class="available">24/7 Email and Chat Support</li>
-                        <li class="unavailable">Phone Support</li>
-                        <li class="available">Video Training Links</li>
+                        <li class="available">Priority Support</li>
 
-                        <li class="header">Add On</li>
-                        <li class="available">Additional User <span class="fw-bold"> BHD 10/- per User</span></li>
-                        <li class="available">Additional POS Setup & Training <span class="fw-bold"> BHD 85/- per
-                                POS</span></li>
-                        <li class="available">Extra Training <span class="fw-bold"> BHD 35/- per Hour</span></li>
-                        <li class="available">Custom Features& Third Part Intgartion <span class="fw-bold"> BHD 100
-                                +</span></li>
+
+                        <div class="card">
+                            <div class="header fw-bold">Add On</div>
+                            <div class="mb-3">
+                                <div class="available">Additional User <span class="fw-bold"> BHD 10/- per User</span></div>
+                                <div class="available">Additional POS Setup & Training <span class="fw-bold"> BHD 85/-per POS</span></div>
+                                <div class="available">Extra Training <span class="fw-bold"> BHD 35/- per Hour</span></div>
+                                <div class="available">Custom Features& Third Part Intgartion <span class="fw-bold"> BHD100+</span></div>
+                                <div class="available">On Site Support -Chargeble</div>
+                            </div>
+
+                        </div>
 
                     </ul>
 
                     <form class="mt-4">
                         <div class="text-end mt-4">
-                            <button type="button" class="btn btn-secondary me-2" data-bs-dismiss="modal">Cancel</button>
-                            <button type="submit" class="btn btn-primary">Submit Request</button>
+                            <button type="button" class="btn btn-secondary me-2" data-bs-dismiss="modal">
+                                <span class="d-none d-sm-inline me-2">Cancel</span>
+                                <i class="fa fa-x"></i></button>
+                            <button type="submit" class="btn btn-primary">
+                                <span class="d-none d-sm-inline me-2">Submit Request</span>
+                                <i class="fa fa-paper-plane"></i></button>
                         </div>
                     </form>
                 </div>
@@ -517,8 +530,8 @@
                         <li class="header">Organization Setup</li>
                         <li class="available">1 Organization</li>
                         <li class="available">5 Users</li>
-                        <li class="available">3 Branches</li>
-                        <li class="available">2 Retail POS</li>
+                        <li class="unavailable">Branches</li>
+                        <li class="available">1 Retail POS-Application</li>
 
                         <li class="header">Sales</li>
                         <li class="available">Customer Management</li>
@@ -540,22 +553,26 @@
                         <li class="available">Vendor Portal</li>
                         <li class="available">Approval Stage</li>
 
+                        <li class="header">Project</li>
+                        <li class="available">Time Tracking</li>
+                        <li class="available">Time sheet</li>
+
                         <li class="header">Inventory</li>
                         <li class="available">Price List</li>
                         <li class="available">Manage Items</li>
                         <li class="available">Stock Tracking</li>
-                        <li class="available">Set Reorder Points</li>
-                        <li class="available">Barcode</li>
-                        <li class="available">Warehouse</li>
-                        <li class="available">Serial Number Tracking</li>
-                        <li class="available">Batch Number Tracking</li>
+                        <li class="unavailable">Set Reorder Points</li>
+                        <li class="unavailable">Barcode</li>
+                        <li class="unavailable">Warehouse</li>
+                        <li class="unavailable">Serial Number Tracking</li>
+                        <li class="unavailable">Batch Number Tracking</li>
                         <li class="available">Stock Counting</li>
 
                         <li class="header">Banking & Accounting</li>
                         <li class="available">Bank Reconciliation</li>
                         <li class="available">Manual Journal</li>
                         <li class="available">Chart Of Accounts</li>
-                        <li class="available">Transaction Locking</li>
+                        <li class="unavailable">Transaction Locking</li>
 
                         <li class="header">Reporting</li>
                         <li class="available">Overview</li>
@@ -566,25 +583,33 @@
                         <li class="available">Business Performance Ratios</li>
                         <li class="available">Movement of Equity</li>
                         <li class="available">Activity Logs & Audit Trail</li>
+                        <li class="available">Sales Related Report</li>
+                        <li class="available">Purchase Related Reports</li>
 
                         <li class="header">Support</li>
-                        <li class="available">24/7 Email and Chat Support</li>
-                        <li class="available">Phone Support</li>
-                        <li class="available">30 Minutes Free Training</li>
+                        <li class="available">Priority Support</li>
 
-                        <li class="header">Add On</li>
-                        <li class="available">Additional User <span class="fw-bold"> BHD 10/- per User</span></li>
-                        <li class="available">Additional POS Setup & Training <span class="fw-bold"> BHD 85/- per
-                                POS</span></li>
-                        <li class="available">Extra Training <span class="fw-bold"> BHD 35/- per Hour</span></li>
-                        <li class="available">Custom Features& Third Part Intgartion <span class="fw-bold"> BHD 100
-                                +</span></li>
+                        <div class="card">
+                            <div class="header fw-bold">Add On</div>
+                            <div class="mb-3">
+                                <div class="available">Additional User <span class="fw-bold"> BHD 10/- per User</span></div>
+                                <div class="available">Additional POS Setup & Training <span class="fw-bold"> BHD 85/-per POS</span></div>
+                                <div class="available">Extra Training <span class="fw-bold"> BHD 35/- per Hour</span></div>
+                                <div class="available">Custom Features& Third Part Intgartion <span class="fw-bold"> BHD100+</span> </div>
+                                <div class="available">On Site Support -Chargeble</div>
+                            </div>
+
+                        </div>
                     </ul>
 
                     <form class="mt-4">
                         <div class="text-end mt-4">
-                            <button type="button" class="btn btn-secondary me-2" data-bs-dismiss="modal">Cancel</button>
-                            <button type="submit" class="btn btn-primary">Submit Request</button>
+                            <button type="button" class="btn btn-secondary me-2" data-bs-dismiss="modal">
+                                <span class="d-none d-sm-inline me-2">Cancel</span>
+                                <i class="fa fa-x"></i></button>
+                            <button type="submit" class="btn btn-primary">
+                                <span class="d-none d-sm-inline me-2">Submit Request</span>
+                                <i class="fa fa-paper-plane"></i></button>
                         </div>
                     </form>
                 </div>
@@ -616,8 +641,8 @@
                         <li class="header">Organization Setup</li>
                         <li class="available">1 Organization</li>
                         <li class="available">10 Users</li>
-                        <li class="available">3+ Branches</li>
-                        <li class="available">2+ Retail POS</li>
+                        <li class="available">2 Branches</li>
+                        <li class="available">3 Retail POS-Application</li>
 
                         <li class="header">Sales</li>
                         <li class="available">Customer Management</li>
@@ -638,6 +663,10 @@
                         <li class="available">Debit Note</li>
                         <li class="available">Vendor Portal</li>
                         <li class="available">Approval Stage</li>
+
+                        <li class="header">Project</li>
+                        <li class="available">Time Tracking</li>
+                        <li class="available">Time sheet</li>
 
                         <li class="header">Inventory</li>
                         <li class="available">Price List</li>
@@ -665,25 +694,40 @@
                         <li class="available">Business Performance Ratios</li>
                         <li class="available">Movement of Equity</li>
                         <li class="available">Activity Logs & Audit Trail</li>
+                        <li class="available">Sales Related Report</li>
+                        <li class="available">Purchase Related Reports</li>
 
                         <li class="header">Support</li>
-                        <li class="available">24/7 Email and Chat Support</li>
-                        <li class="available">Priority Phone Support</li>
-                        <li class="available">Extended Training Sessions</li>
+                        <li class="available">Priority Support</li>
 
-                        <li class="header">Add On</li>
-                        <li class="available">Additional User <span class="fw-bold"> BHD 10/- per User</span></li>
-                        <li class="available">Additional POS Setup & Training <span class="fw-bold"> BHD 85/- per
-                                POS</span></li>
-                        <li class="available">Extra Training <span class="fw-bold"> BHD 35/- per Hour</span></li>
-                        <li class="available">Custom Features& Third Part Intgartion <span class="fw-bold"> BHD 100
-                                +</span></li>
+
+                        <div class="card">
+                            <div class="header fw-bold">Add On</div>
+                            <div class="mb-3">
+                                <div class="available">Additional User <span class="fw-bold"> BHD 10/- per User</span>
+                                </div>
+                                <div class="available">Additional POS Setup & Training <span class="fw-bold"> BHD 85/-
+                                        per
+                                        POS</span> </div>
+                                <div class="available">Extra Training <span class="fw-bold"> BHD 35/- per Hour</span>
+                                </div>
+                                <div class="available">Custom Features& Third Part Intgartion <span class="fw-bold"> BHD
+                                        100
+                                        +</span> </div>
+                                <div class="available">On Site Support -Chargeble</div>
+                            </div>
+
+                        </div>
                     </ul>
 
                     <form class="mt-4">
                         <div class="text-end mt-4">
-                            <button type="button" class="btn btn-secondary me-2" data-bs-dismiss="modal">Cancel</button>
-                            <button type="submit" class="btn btn-primary">Submit Request</button>
+                            <button type="button" class="btn btn-secondary me-2" data-bs-dismiss="modal">
+                                <span class="d-none d-sm-inline me-2">Cancel</span>
+                                <i class="fa fa-x"></i></button>
+                            <button type="submit" class="btn btn-primary">
+                                <span class="d-none d-sm-inline me-2">Submit Request</span>
+                                <i class="fa fa-paper-plane"></i></button>
                         </div>
                     </form>
                 </div>
@@ -891,7 +935,7 @@
 
     <!-- Section Testimonial-->
     <section class="section Testimonial">
-        <div class="container testimonials-main">
+        <div class="container testimonials-main text-center">
             <p class="badge mb-2 testimonials-p" data-aos="fade-up">Testimonials</p>
             <h2 class="section-title text-center mb-2" data-aos="fade-up">What Our Clients Say</h2>
             <p data-aos="fade-up">Hear from our satisfied users who have experienced our exceptional service firsthand.
@@ -1053,12 +1097,14 @@
                             </a>
                         </div>
                         <div class="social-icon">
-                            <a href="#https://www.instagram.com/ledgerbooks.app/" aria-label="Visit our Instagram page" target="_blank">
+                            <a href="#https://www.instagram.com/ledgerbooks.app/" aria-label="Visit our Instagram page"
+                                target="_blank">
                                 <i class="fab fa-instagram"></i>
                             </a>
                         </div>
                         <div class="social-icon">
-                            <a href="#https://www.facebook.com/profile.php?id=61572407698590" aria-label="Visit our Facebook page" target="_blank">
+                            <a href="#https://www.facebook.com/profile.php?id=61572407698590"
+                                aria-label="Visit our Facebook page" target="_blank">
                                 <i class="fab fa-facebook"></i>
                             </a>
                         </div>
@@ -1083,12 +1129,16 @@
                 <div class="col-lg-3 col-md-6 mb-1">
                     <h5 class="mb-4">Services</h5>
                     <ul class="list-unstyled">
-                        <li class="mb-4"><a href="#" class="text-light text-decoration-none">Re Seler</a></li>
-                        <li class="mb-4"><a href="#CloudERPSystem" class="text-light text-decoration-none">Cloud-Based ERP</a></li>
-                        <li class="mb-4"><a href="#Customization" class="text-light text-decoration-none">Customization</a></li>
-                        <li class="mb-4"><a href="#Third-Party-Integration" class="text-light text-decoration-none">Third-Party Application
+                        <li class="mb-4"><a href="#" class="text-light text-decoration-none">Re Seler Or Referral Program</a></li>
+                        <li class="mb-4"><a href="#CloudERPSystem" class="text-light text-decoration-none">Cloud-Based
+                                ERP</a></li>
+                        <li class="mb-4"><a href="#Customization"
+                                class="text-light text-decoration-none">Customization</a></li>
+                        <li class="mb-4"><a href="#Third-Party-Integration"
+                                class="text-light text-decoration-none">Third-Party Application
                                 Integration</a></li>
-                        <li class="mb-4"><a href="#IndustrySolutions" class="text-light text-decoration-none">Industry-Specific
+                        <li class="mb-4"><a href="#IndustrySolutions"
+                                class="text-light text-decoration-none">Industry-Specific
                                 Solutions</a></li>
                     </ul>
                 </div>
@@ -1138,7 +1188,7 @@
                     <p class="mb-0 ">Developed by Full Stack Developer Academy</p>
                 </div>
             </div>
-            
+
 
         </div>
     </footer>

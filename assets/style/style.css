@@ -73,6 +73,7 @@ h6,
     background: transparent;
 }
 
+
 .section-title {
     font-size: clamp(2rem, 4vw, 2.5rem);
     font-weight: 700;
@@ -129,6 +130,11 @@ h6,
     }
 }
 
+@media (max-width: 576px) {
+    .section {
+        padding: 2rem 0;
+    }
+}
 
 /* --------------------------- Section Navbar ------------------------------------ */
 .navbar {
@@ -649,13 +655,10 @@ h6,
 .service-card .card-img-top {
     height: 14rem;
     width: 13rem;
-    filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222222a4);
 }
 
-.service-card .card-img-wrapper img {
-    animation: float 15s ease-in-out infinite;
-
-}
+/* .service-card .card-img-wrapper img {animation: float 15s ease-in-out infinite;} */
 
 .service-card .card-icon {
     position: absolute;
@@ -1060,6 +1063,34 @@ h6,
     border-color: #28a745;
 }
 
+.modal-green .feature-list .card{
+    text-align: center;
+    padding: 0rem 1rem;
+    margin-top: 1rem;
+    background-color: #28a7461e;
+    border-color: #28a745;
+}
+
+.modal-green .feature-list .card .header {
+    font-weight: bold;
+    margin-top: 15px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+
+.modal-green .feature-list .card div span {
+   color: #388e4c;
+}
+
+@media (max-width: 470px) {
+    .modal-green .feature-list .card div div {
+        display: flex;
+        flex-direction: column;
+     }
+}
+
 /* Yellow Modal */
 .modal-yellow .modal-header {
     background-color: rgba(255, 193, 7, 0.1);
@@ -1091,6 +1122,35 @@ h6,
     color: #212529;
 }
 
+.modal-yellow  .feature-list .card{
+    text-align: center;
+    padding: 0rem 1rem;
+    margin-top: 1rem;
+    background-color: #ffc1071f;
+    border-color: #ffc107;
+    color: #212529;
+}
+
+.modal-yellow  .feature-list .card .header {
+    font-weight: bold;
+    margin-top: 15px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+
+.modal-yellow  .feature-list .card div span {
+   color: var(--passive-yellow);
+}
+
+@media (max-width: 470px) {
+    .modal-yellow .feature-list .card div div {
+        display: flex;
+        flex-direction: column;
+     }
+}
+
 /* Blue Modal */
 .modal-blue .modal-header {
     background-color: rgba(0, 123, 255, 0.1);
@@ -1119,6 +1179,34 @@ h6,
 .modal-blue .btn-primary {
     background-color: #007bff;
     border-color: #007bff;
+}
+
+.modal-blue .feature-list .card{
+    text-align: center;
+    padding: 0rem 1rem;
+    margin-top: 1rem;
+    background-color: #007bff1f;
+    border-color: #007bff;
+}
+
+.modal-blue .feature-list .card .header {
+    font-weight: bold;
+    margin-top: 15px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+
+.modal-blue .feature-list .card div span {
+   color: #007bff;
+}
+
+@media (max-width: 470px) {
+    .modal-blue .feature-list .card div div {
+        display: flex;
+        flex-direction: column;
+     }
 }
 
 /* --------------------------- Section FAQ ------------------------------------ */
@@ -1707,7 +1795,7 @@ footer a:hover {
     opacity: 0;
     right: 15px;
     bottom: 10px;
-    z-index: 99999;
+    z-index: 99;
     margin: 20px;
     height: 50px;
     width: 50px;
@@ -1759,7 +1847,7 @@ footer a:hover {
     margin: 20px;
     width: 50px;
     height: 50px;
-    z-index: 9999;
+    z-index: 99;
     color: white;
     background-color: #4caf50;
     ;
@@ -1778,7 +1866,7 @@ footer a:hover {
     margin: 20px;
     height: 50px;
     width: 50px;
-    z-index: 9999;
+    z-index: 99;
     color: white;
     background-color: var(--text-color);
     text-decoration: none;
