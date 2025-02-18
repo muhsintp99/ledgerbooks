@@ -181,7 +181,7 @@ h6,
 .hero {
     min-height: 100vh;
     background: var(--secondary-color);
-    padding-top: 6rem;
+    padding-top: 4rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -912,6 +912,43 @@ h6,
     content: none;
 }
 
+.Addon-list {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    position: relative;
+    z-index: 2;
+}
+
+.Addon-list li {
+    padding: 4px 0;
+    gap: 10px;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: flex-start;
+    white-space: normal;
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+
+.Addon-list li.available::before {
+    content: '✓';
+    color: #22c55e;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.bhd-rate {
+    font-weight: bold;
+}
+
+.Addon-list li.header {
+    font-weight: bold;
+    margin-top: 15px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+}
 
 /* Button Styling */
 .btn-start {
@@ -1063,34 +1100,6 @@ h6,
     border-color: #28a745;
 }
 
-.modal-green .feature-list .card{
-    text-align: center;
-    padding: 0rem 1rem;
-    margin-top: 1rem;
-    background-color: #28a7461e;
-    border-color: #28a745;
-}
-
-.modal-green .feature-list .card .header {
-    font-weight: bold;
-    margin-top: 15px;
-    border-bottom: 1px solid #eee;
-    padding-bottom: 8px;
-    margin-bottom: 8px;
-    text-transform: uppercase;
-}
-
-.modal-green .feature-list .card div span {
-   color: #388e4c;
-}
-
-@media (max-width: 470px) {
-    .modal-green .feature-list .card div div {
-        display: flex;
-        flex-direction: column;
-     }
-}
-
 /* Yellow Modal */
 .modal-yellow .modal-header {
     background-color: rgba(255, 193, 7, 0.1);
@@ -1122,35 +1131,6 @@ h6,
     color: #212529;
 }
 
-.modal-yellow  .feature-list .card{
-    text-align: center;
-    padding: 0rem 1rem;
-    margin-top: 1rem;
-    background-color: #ffc1071f;
-    border-color: #ffc107;
-    color: #212529;
-}
-
-.modal-yellow  .feature-list .card .header {
-    font-weight: bold;
-    margin-top: 15px;
-    border-bottom: 1px solid #eee;
-    padding-bottom: 8px;
-    margin-bottom: 8px;
-    text-transform: uppercase;
-}
-
-.modal-yellow  .feature-list .card div span {
-   color: var(--passive-yellow);
-}
-
-@media (max-width: 470px) {
-    .modal-yellow .feature-list .card div div {
-        display: flex;
-        flex-direction: column;
-     }
-}
-
 /* Blue Modal */
 .modal-blue .modal-header {
     background-color: rgba(0, 123, 255, 0.1);
@@ -1179,34 +1159,6 @@ h6,
 .modal-blue .btn-primary {
     background-color: #007bff;
     border-color: #007bff;
-}
-
-.modal-blue .feature-list .card{
-    text-align: center;
-    padding: 0rem 1rem;
-    margin-top: 1rem;
-    background-color: #007bff1f;
-    border-color: #007bff;
-}
-
-.modal-blue .feature-list .card .header {
-    font-weight: bold;
-    margin-top: 15px;
-    border-bottom: 1px solid #eee;
-    padding-bottom: 8px;
-    margin-bottom: 8px;
-    text-transform: uppercase;
-}
-
-.modal-blue .feature-list .card div span {
-   color: #007bff;
-}
-
-@media (max-width: 470px) {
-    .modal-blue .feature-list .card div div {
-        display: flex;
-        flex-direction: column;
-     }
 }
 
 /* --------------------------- Section FAQ ------------------------------------ */
