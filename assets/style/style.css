@@ -1161,6 +1161,13 @@ h6,
     border-color: #007bff;
 }
 
+@media (max-width:500px) {
+    .price-Enterprise .price-Enterprise-section {
+        flex-direction: column;
+    }
+}
+
+
 /* --------------------------- Section FAQ ------------------------------------ */
 
 .accordion-button:focus {
